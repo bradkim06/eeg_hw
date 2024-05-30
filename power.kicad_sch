@@ -2406,7 +2406,7 @@
 		(uuid "27e537ec-e0f8-4a84-8cde-da35369a463d")
 	)
 	(no_connect
-		(at 212.09 135.89)
+		(at 172.72 125.73)
 		(uuid "65d65e7c-0941-4196-be4b-e4c8d0a8b45b")
 	)
 	(no_connect
@@ -2555,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 140.97) (xy 224.79 140.97)
+			(xy 187.96 130.81) (xy 185.42 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2655,7 +2655,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 140.97) (xy 217.17 140.97)
+			(xy 172.72 130.81) (xy 177.8 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2785,7 +2785,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 143.51) (xy 227.33 140.97)
+			(xy 187.96 133.35) (xy 187.96 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2795,7 +2795,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 138.43) (xy 201.93 138.43)
+			(xy 157.48 128.27) (xy 162.56 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3083,6 +3083,16 @@
 		)
 		(uuid "8aee4bb6-1588-4d43-97d8-ee91cd688319")
 	)
+	(polyline
+		(pts
+			(xy 193.04 115.57) (xy 193.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8ee94853-7b27-496d-824c-00d48bc061ce")
+	)
 	(wire
 		(pts
 			(xy 77.47 102.87) (xy 77.47 106.68)
@@ -3293,6 +3303,16 @@
 		)
 		(uuid "bc25ef51-f1bc-4c60-8ab8-c4c692c2893d")
 	)
+	(polyline
+		(pts
+			(xy 149.86 146.05) (xy 193.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "bd459469-d33b-498a-8f31-50fb1c7bd772")
+	)
 	(wire
 		(pts
 			(xy 45.72 69.85) (xy 52.07 69.85)
@@ -3472,6 +3492,26 @@
 			(type default)
 		)
 		(uuid "ded8b804-7d14-4609-9b0b-7ad7e89e027f")
+	)
+	(polyline
+		(pts
+			(xy 149.86 115.57) (xy 149.86 146.05)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "df297b1b-7406-4826-8b7f-4d1edef20d2f")
+	)
+	(polyline
+		(pts
+			(xy 149.86 115.57) (xy 193.04 115.57)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "dfba966f-529e-4783-8c6e-d1c5799763c5")
 	)
 	(wire
 		(pts
@@ -3659,7 +3699,7 @@
 	)
 	(text "Power Switch"
 		(exclude_from_sim no)
-		(at 227.33 162.052 0)
+		(at 173.736 143.002 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3921,7 +3961,7 @@
 		(uuid "ae7470a0-571a-4549-90f8-b2cc99ef62d5")
 	)
 	(label "VBAT"
-		(at 196.85 138.43 180)
+		(at 157.48 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5421,7 +5461,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 143.51 0)
+		(at 187.96 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5430,7 +5470,7 @@
 		(fields_autoplaced yes)
 		(uuid "3814ecdb-2156-4165-aa9e-2fec8ae626c2")
 		(property "Reference" "#PWR019"
-			(at 227.33 149.86 0)
+			(at 187.96 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +5479,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 148.59 0)
+			(at 187.96 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 143.51 0)
+			(at 187.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 143.51 0)
+			(at 187.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 143.51 0)
+			(at 187.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +5829,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 207.01 138.43 0)
+		(at 167.64 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5798,7 +5838,7 @@
 		(fields_autoplaced yes)
 		(uuid "3df47b0a-dfd9-4c04-b1fb-116243f3146c")
 		(property "Reference" "SW1"
-			(at 207.01 129.54 0)
+			(at 167.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5846,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 207.01 132.08 0)
+			(at 167.64 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5854,7 @@
 			)
 		)
 		(property "Footprint" "MK-12C02-G020:MK-12C02-G020_GSW"
-			(at 207.01 138.43 0)
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +5863,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 146.05 0)
+			(at 167.64 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +5872,7 @@
 			)
 		)
 		(property "Description" "Right Angle 1A SPDT 6V Black Slide Switches ROHS"
-			(at 207.01 138.43 0)
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +5881,7 @@
 			)
 		)
 		(property "MANUFACTURER" "G-Switch"
-			(at 207.01 138.43 0)
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +5890,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "MK-12C02-G020"
-			(at 207.01 138.43 0)
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +5899,7 @@
 			)
 		)
 		(property "Package" "SMD"
-			(at 207.01 138.43 0)
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +5908,7 @@
 			)
 		)
 		(property "Type" "Surface Mount"
-			(at 207.01 138.43 0)
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,16 +6085,15 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 222.25 140.97 90)
+		(at 182.88 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "447a4be5-85e4-4ba2-ac46-6d913641dc84")
 		(property "Reference" "BT1"
-			(at 219.1384 135.89 0)
+			(at 184.15 123.7616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +6102,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 221.6784 135.89 0)
+			(at 184.15 121.2216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6111,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
-			(at 220.726 140.97 90)
+			(at 181.356 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.726 140.97 90)
+			(at 181.356 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6090,7 +6129,7 @@
 			)
 		)
 		(property "Description" "1x2P 2P 1 1.25mm 2 -25℃~+85℃ 1A Straight Plugin,P=1.25mm  Wire To Board / Wire To Wire Connector ROHS"
-			(at 222.25 140.97 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +6138,7 @@
 			)
 		)
 		(property "Type" "Through Hole "
-			(at 222.25 140.97 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +6147,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CAX"
-			(at 222.25 140.97 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6156,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "1.25T-2A"
-			(at 222.25 140.97 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +6165,7 @@
 			)
 		)
 		(property "Package" "2POS"
-			(at 222.25 140.97 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6174,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 222.25 140.97 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6183,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 222.25 140.97 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6192,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 222.25 140.97 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6201,7 @@
 			)
 		)
 		(property "RS_PART_NUMBER" ""
-			(at 222.25 140.97 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +6210,7 @@
 			)
 		)
 		(property "RS_PRICE-STOCK" ""
-			(at 222.25 140.97 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

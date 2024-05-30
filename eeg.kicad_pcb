@@ -163,7 +163,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerber/")
+			(outputdirectory "pcb/gerber/")
 		)
 	)
 	(net 0 "")
@@ -19375,7 +19375,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 -0.62 270)
+			(at 0 -0.62 -90)
 			(layer "B.Fab")
 			(uuid "b8edd0fa-ec0e-4d1b-8cd9-9dbcf01c8bbb")
 			(effects
