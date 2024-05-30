@@ -2547,13 +2547,13 @@
 		(uuid "6f268a4b-8f72-4328-8b26-b0909aba35d1")
 	)
 	(label "VBUS_nrf"
-		(at 173.99 21.59 180)
+		(at 173.99 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "89dbe60b-c43e-414a-a61e-f826e8190524")
 	)
