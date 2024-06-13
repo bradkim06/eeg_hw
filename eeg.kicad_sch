@@ -1544,12 +1544,6 @@
 		)
 	)
 	(junction
-		(at 158.75 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1527fea9-8413-40d0-89db-c0589cf06e10")
-	)
-	(junction
 		(at 254 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1562,12 +1556,6 @@
 		(uuid "355eb8d1-e09d-475f-a5cf-27580a636c0c")
 	)
 	(junction
-		(at 168.91 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ed5d81f-c57c-4d32-a1fd-7efbb4a158e6")
-	)
-	(junction
 		(at 266.7 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1578,18 +1566,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a8283ee-69b9-4004-aec7-ffda1ccd4637")
-	)
-	(junction
-		(at 161.29 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e40e6f6-fc78-46eb-a2c7-c93744c80f82")
-	)
-	(junction
-		(at 166.37 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b509d22a-d30d-41fd-b920-f93b7134ae93")
 	)
 	(junction
 		(at 255.27 147.32)
@@ -1825,26 +1801,6 @@
 		)
 		(uuid "3a29b315-858e-4a4e-b6e4-2a3734c4a734")
 	)
-	(wire
-		(pts
-			(xy 161.29 97.79) (xy 168.91 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f400562-ab66-4431-b99d-9e79cef90538")
-	)
-	(wire
-		(pts
-			(xy 158.75 100.33) (xy 158.75 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49d82518-8857-4ecc-a5ff-b8867914ab7a")
-	)
 	(polyline
 		(pts
 			(xy 147.32 128.27) (xy 147.32 157.48)
@@ -1874,16 +1830,6 @@
 			(type default)
 		)
 		(uuid "5502f711-979f-4995-be28-40c05c47efe6")
-	)
-	(wire
-		(pts
-			(xy 168.91 97.79) (xy 168.91 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b4ec577-0d48-4926-8ab3-e56c9f5b1139")
 	)
 	(wire
 		(pts
@@ -1997,16 +1943,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 100.33) (xy 161.29 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86b5939f-9e38-4a83-8485-bc317abac12a")
-	)
-	(wire
-		(pts
 			(xy 210.82 82.55) (xy 215.9 82.55)
 		)
 		(stroke
@@ -2044,16 +1980,6 @@
 			(type default)
 		)
 		(uuid "8e666a16-cffc-4fff-829e-d31f36483dc5")
-	)
-	(wire
-		(pts
-			(xy 158.75 95.25) (xy 166.37 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ebee979-8e5f-41e4-a222-32ec52b0b961")
 	)
 	(wire
 		(pts
@@ -2167,16 +2093,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 95.25) (xy 166.37 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2becdb3-8742-4858-af3b-2426e575a2d7")
-	)
-	(wire
-		(pts
 			(xy 266.7 125.73) (xy 266.7 127)
 		)
 		(stroke
@@ -2204,16 +2120,6 @@
 			(type default)
 		)
 		(uuid "b4984c74-88ed-4ae4-8dfc-37436f0ed48f")
-	)
-	(wire
-		(pts
-			(xy 158.75 95.25) (xy 158.75 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b995c3d4-8d63-439c-91ec-cd37e9780287")
 	)
 	(wire
 		(pts
@@ -2257,7 +2163,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 91.44) (xy 168.91 97.79)
+			(xy 168.91 91.44) (xy 168.91 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2294,16 +2200,6 @@
 			(type default)
 		)
 		(uuid "d0dff3e8-035d-4039-b862-8796c724b2ae")
-	)
-	(wire
-		(pts
-			(xy 161.29 97.79) (xy 161.29 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d900ab77-7f03-4d81-abcf-536bd52a1001")
 	)
 	(wire
 		(pts
@@ -2357,7 +2253,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 91.44) (xy 166.37 95.25)
+			(xy 166.37 91.44) (xy 166.37 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2571,17 +2467,6 @@
 		)
 		(uuid "7d3ac6bc-b64d-4fd7-aab9-688f937e239b")
 	)
-	(label "UART_TX_net"
-		(at 161.29 100.33 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "96d65f84-9ca0-46ba-88be-22ec1af279ac")
-	)
 	(label "SWDCLK"
 		(at 120.65 138.43 180)
 		(fields_autoplaced yes)
@@ -2680,17 +2565,6 @@
 			(justify right bottom)
 		)
 		(uuid "f4f91a8d-a209-4237-b032-ccf9db96a218")
-	)
-	(label "UART_RX_net"
-		(at 158.75 100.33 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f8c1587c-6ef4-4e64-b238-69bcfe8a285c")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4310,26 +4184,6 @@
 				(justify right)
 			)
 			(uuid "49eb9fa7-28d6-4342-abfa-2d72c13b9306")
-		)
-		(pin "UART_TX_net" input
-			(at 161.29 91.44 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bcb4857a-2aff-4ff9-8b5d-ff86a65641ef")
-		)
-		(pin "UART_RX_net" input
-			(at 158.75 91.44 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "085969f7-8692-408c-97e4-c29e16bb95ef")
 		)
 		(instances
 			(project "eeg"
