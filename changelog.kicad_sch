@@ -5,6 +5,25 @@
 	(uuid "f5efdaed-f89c-449a-bc21-0a6b64c0d1ff")
 	(paper "A4")
 	(lib_symbols)
+	(text_box "Version 0.2(dev)\n- USB Data Line Delete\n- 100uF size fix (0402 -> 0805)\n* dev only\n- pin header size up (2.54mm)"
+		(exclude_from_sim no)
+		(at 67.31 13.97 0)
+		(size 39.37 15.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "88aa3f94-73bc-445a-bf72-a2c75b0c98c6")
+	)
 	(text_box "Version 0.1\n- USB-C Type Power & Charge\n- npm1300 BMS(Battery Manage System)\n- EEG 4Channel (ADS1299)\n- Dual Core Chip (NRF5340)\n- gyro accelerometer sensor (BMI270)"
 		(exclude_from_sim no)
 		(at 13.97 13.97 0)
