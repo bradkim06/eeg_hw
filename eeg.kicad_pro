@@ -491,7 +491,7 @@
       "idf": "",
       "netlist": "",
       "plot": "pcb/gerber/",
-      "pos_files": "pcb/gerber/",
+      "pos_files": "pcb/SMT/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
